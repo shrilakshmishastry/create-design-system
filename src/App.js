@@ -4,14 +4,15 @@ import LeftSideNavigationBar from './components/NavigationBar/LeftSideNaviagtion
 import TopNavBar from './components/NavigationBar/TopNavBar';
 import GlobalRouter from './routers';
 
-import './App.css';
+
 
 function App() {
   return (
-    <main>
+    <main className='appWrapper'>
       <TopNavBar/>
-      <div>
-        <LeftSideNavigationBar/>
+      
+      <div className='centerContentWrapper'>
+        <LeftSideNavigationBar/>    
         <GlobalRouter/>
       </div>      
     </main>
