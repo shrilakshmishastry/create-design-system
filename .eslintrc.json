@@ -57,7 +57,7 @@
       "single",
       "avoid-escape"
     ],
-    "no-console": 2,
+    // "no-console": 2,
     "react/jsx-closing-tag-location": 2,
     "react/no-array-index-key": 2,
     "react/jsx-props-no-spreading": 0,
