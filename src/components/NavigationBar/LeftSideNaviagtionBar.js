@@ -1,17 +1,20 @@
 import React from 'react';
 
-import FS from 'fs';
-// import { Link } from 'react-router-dom';
+import BubbleNavigator from './bubbles';
+import BuildersNavigator from './builders';
+import FontsNavigator from './fonts';
+import LayoutNavigator from './layouts';
+import ThemeNavigator from './theme';
 
 const LeftSideNavigationBar = ()=>{
-  FS.rename('dummy.js','d.js',err=>{
-    console.log(err);
-  });
+ 
   return(
     <nav>
-           
-     
-     
+      <ThemeNavigator/>
+      <BubbleNavigator/>
+      <BuildersNavigator/>
+      <FontsNavigator/>
+      <LayoutNavigator/>           
     </nav>
   );
 };
