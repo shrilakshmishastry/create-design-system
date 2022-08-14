@@ -74,7 +74,7 @@
     ],
     "quotes": [
       2,
-      "single",
+      "double",
       "avoid-escape"
     ],
     // "no-console": 2,
@@ -118,6 +118,18 @@
     ]
   },
   "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ],
+        "moduleDirectory": [
+          "node_modules",
+          "src/"
+        ]
+      }
+    },
     "react": {
       "version": "detect"
     }
