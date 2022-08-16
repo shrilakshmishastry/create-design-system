@@ -1,2 +1,9 @@
 # create-design-system
-A tool that easy your effort in building design system 
+
+create-design-system is a tool that generates a design system as a code. 
+
+## Features
+TBT
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
